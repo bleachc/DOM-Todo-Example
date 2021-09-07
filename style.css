@@ -1,0 +1,18 @@
+#todos-container {
+    list-style-type: none;
+    margin: 30px 0;
+    padding: 15px;
+    border: gray 1px solid;
+    border-radius: 5px;
+}
+
+.todo-item {
+    padding: 15px;
+    margin: 5px;
+    border: gray 1px solid;
+    border-radius: 5px;
+}
+
+.todo-item button {
+    float: right;
+}
