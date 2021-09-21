@@ -16,3 +16,8 @@
 .todo-item button {
     float: right;
 }
+
+.radio-group {
+    display: inline;
+    margin: 0 15px 0 15px;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,26 @@
     <link rel="stylesheet" href="style.css">
     <title>Todo Example</title>
 </head>
+
 <body>
     <h1>Todo List using the DOM</h1>
 
     <form id='add-todo-form'>
-        <input type="text" name="todo" id="todo">
+        <input type="text" name="todo" id="todo" />
+
+        <select name="storage" id="storage">
+            <option value="local">Local</option>
+            <option value="session">Session</option>
+        </select>
+
         <button id='add-todo-btn' type='submit'>Add Item</button>
     </form>
-    
+
     <ul id="todos-container">
-        <li class='todo-item'>
-            <span>Accept the assignment in Github Classroom</span>
-            <button>Remove</button>
-        </li>
-        <li class='todo-item'>
-            <span>Follow the instructions</span>
-            <button>Remove</button>
-        </li>
-        <li class='todo-item'>
-            <span>Push the changes and make sure it passed unit tests</span>
-            <button>Remove</button>
-        </li>
+        
     </ul>
 
     <script src="script.js"></script>
 </body>
+
 </html>
